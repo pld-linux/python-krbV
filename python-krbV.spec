@@ -8,7 +8,7 @@ Group:		Development/Languages
 Source0:	%{name}-%{version}.tar.gz
 # Source0-md5:	6faf75cd993c3d19b8ef7b6e8a66972b
 URL:		http://people.redhat.com/mikeb/python-krbV
-BuildRequires:	krb5-devel >= 1.2.2
+BuildRequires:	heimdal-devel >= 1.2.2
 BuildRequires:	python-devel
 BuildRequires:	rpm-pythonprov
 %pyrequires_eq	python-libs
