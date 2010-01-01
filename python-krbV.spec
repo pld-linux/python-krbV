@@ -12,7 +12,7 @@ BuildRequires:	heimdal-devel >= 1.2.2
 BuildRequires:	python-devel
 BuildRequires:	rpm-pythonprov
 %pyrequires_eq	python-libs
-Buildroot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 python-krbV allows Python programs to use Kerberos 5
